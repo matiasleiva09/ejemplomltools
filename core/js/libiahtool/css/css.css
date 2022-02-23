@@ -1,0 +1,59 @@
+body
+{
+	/* background-color:#abb3b6;*/
+	background-color:wite;
+}
+
+.grilla
+{
+	background: #4787be;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.tabla
+{
+	border: 0px solid #337ab7;
+	background: #5b94c5;
+}
+.tabla .columna
+{
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	color: #000000;
+	background-color: #99bcdb;
+	border: 1px solid #337ab7;
+	border-collapse: collapse;
+	cursor: pointer;
+}
+
+.tabla .fila
+{
+	color: #000000;
+	background-color:white;
+	cursor: pointer;
+	font-weight: normal;
+}
+.tabla .fila:hover
+{
+	background-color: #eaf1f7;
+}
+.tabla td
+{
+	font-size: 13px;
+	border: 1px solid #337ab7;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 100px;
+    cursor: pointer;
+}
